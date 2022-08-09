@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@200;400;700&family=Montserrat:wght@400;700&family=Mulish:wght@200;400;600;700&family=Poppins:wght@400;700&family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(102, 51, 153);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+#anotherTest {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#cat {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+#button {
+  background-color: white;
+  height: 50px;
+  width: 150px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #663399;
+  border-radius: 7.5px;
+}
+
+#testDiv {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  width: 160px;
+  height: 50px;
+  background-color: white;
+}
+
+#column4Messages {
+  position: absolute;
+  height: 100%;
+  width: 300px;
+
+  left: 25%;
+}
